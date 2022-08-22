@@ -1,0 +1,153 @@
+*{
+    padding: 0; /*para quitar la margen que viene por defecto en la pagina*/
+    margin:0; /*para quitar el relleno que viene por efecto*/
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    background-image: url(https://i0.wp.com/windowsaplicaciones.com/wp-content/uploads/2017/08/Gifs-animados-Windows-10.gif?fit=1200%2C720&ssl=1&resize=350%2C200);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header{
+    width: 100vw;
+    height: 10%;
+    position: fixed;/*posicionamiento fijo*/
+    z-index: 1; /*para que se mantenga encima de los elementos*/
+
+}
+
+
+.menu-horizontal{
+    background-color:  rgb(14, 24, 51);
+    height: 100px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li a{
+    display: block;
+    padding: 15px 20px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+#selector{
+   background: rgb(14, 24, 51);
+   color: white;
+   font-family: 'Lobster', cursive;
+}
+
+#selector:hover{
+    font-size: 57px;
+    color: black;
+    background: #fcff5c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/*contenedor de la información*/
+
+main{
+    width: 100vw;
+    height: 90vh;
+    position: fixed;/*posicionamiento fijo*/
+
+}
+
+.cover{
+
+    width: 50%;
+    height: 550px;
+    margin-top: 5%;
+    margin-left: 50px;
+    display: block;
+    float: left;
+    justify-content: center;
+    
+}
+
+.cover h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 10%;
+    color:black;
+    font-weight: 40px;
+    font-family: 'Lobster', cursive;
+
+}
+
+.cover h2{
+    font-size: 35px;
+    margin-top: 40px;
+    color:black;
+    font-weight: 80px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.cover img{
+    justify-content: space-around;
+    width: 350px;
+    height: 350px;
+    animation: jonnier 9s linear infinite;
+
+}
+
+@keyframes jonnier {
+    0%{
+        transform: translateX(175px);
+    }
+    50%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(175px);
+    }
+}
+
+.cover2{
+ 
+    align-content: center;
+    width: 35%;
+    height: 500px;
+    margin-right: 60px;
+    margin-top: 10%;
+    display: block;
+    float: right;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.cover2 h1{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: black;
+}
+
+.cover2 h2{
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    color: black;
+}
+
+.imagen{
+    width: 500px;
+    height: 300px;
+    margin-top: 5%;
+    align-items: center;
+    border-radius: 50px;
+    border: 4px solid #fcff5c
+}
+

@@ -1,0 +1,71 @@
+body{
+    background-image: url(../asseds/portadaprincipal.jpg);
+    height: 96vh;
+        width: 97vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+}
+
+header h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: white;
+
+}
+
+.todo{
+    align-content: center;
+    background-color: #1b3c57;
+    position: absolute;
+      height: 500px;
+      width: 500px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 20px 15px #116ba7;
+      border-radius: 20px;
+      
+}
+
+
+main{
+    background-color: rgba(119, 136, 153, 0.212);
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.lista a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 18%;
+    padding: 15px;
+    font-size: 40px;
+}
+
+.menu .lista{
+    margin-top: 5%;
+    display: flex;
+    flex: center;
+    justify-content: center;
+    
+}
+
+.lista-r{
+    float: right;
+}
+
+.lista a:hover{
+    background-color: rgb(132, 237, 255);
+    color: black;
+    font-size: 50px;
+    border-radius: 50px;
+}
+

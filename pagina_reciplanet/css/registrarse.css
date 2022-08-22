@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+  
+  body{
+        background-image: url("https://static.vecteezy.com/system/resources/previews/000/432/883/original/vector-a-simple-nature-landscape.jpg");
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    nav{
+        background-color:rgba(119, 136, 153, 0.212);
+    
+        width: 100%;
+    }
+    
+    .menu{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+    }
+    
+    .lista a{
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        display: inline-block;
+        padding: 15px;
+    }
+    
+    .menu .lista{
+        display: inline-block;
+    }
+    
+    .lista-r{
+        float: right;
+    }
+    
+    .lista a:hover{
+        background-color: rgb(255, 253, 122);
+        color: black;
+        font-size: 40px;
+    }
+    
+    img{
+        width: 70px;
+        height: 70px;
+    }
+
+
+    main{
+        text-align: center;
+    }
+    
+    .todo{
+        background-color: lightgray;
+        position: absolute;
+          height: 500px;
+          width: 500px;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          box-shadow: 16px -10px 10px -10px #d7d7d7;
+          border-radius: 20px;
+    }
+    
+    
+    p{
+        color: black;
+        font-size: 32px;
+        font-weight: 600;
+    
+    }
+    
+    .container{
+        width: 100%;
+        height: 150px;
+        display: block;
+        align-content: center;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    label{
+        text-align: center;
+        margin-top: 10px;
+        color: black;
+    }
+    
+    input{
+        margin-top: 5px;
+        margin-left: 33%;
+        display: block;
+        justify-content: center;
+    }
+    
+    input::placeholder{
+        color: white;
+    }
+    
+    input:focus{
+        color: white;
+        outline: none;
+        background-color: rgba(22, 66, 110, 0.9);
+    }
+    
+    
+    button{
+        margin-top: 20px;
+        background-color: red;
+        color: white;
+    }
